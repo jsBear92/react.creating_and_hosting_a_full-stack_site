@@ -6,12 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: process.env.MY_BLOG_apiKey,
-  authDomain: process.env.MY_BLOG_authDomain,
-  projectId: process.env.MY_BLOG_projectId,
-  storageBucket: process.env.MY_BLOG_storageBucket,
-  messagingSenderId: process.env.MY_BLOG_messagingSenderId,
-  appId: process.env.MY_BLOG_appId
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId
 };
 
 const app = initializeApp(firebaseConfig);
