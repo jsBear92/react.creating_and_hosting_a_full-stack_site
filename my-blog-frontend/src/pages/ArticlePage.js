@@ -23,7 +23,7 @@ const ArticlePage = () => {
             setArticleInfo(articleInfo);
         }
 
-        if (isLoading) {
+        if (!isLoading) {
             loadArticleInfo();
         }
     }, [isLoading, user]);
